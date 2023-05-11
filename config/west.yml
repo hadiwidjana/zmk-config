@@ -10,15 +10,27 @@
 #  self:
 #    path: config
 
+#manifest:
+#  remotes:
+#    - name: hadiwidjana
+#      url-base: https://github.com/hadiwidjana
+#  projects:
+#    - name: zmk
+#      remote: hadiwidjana
+#      revision: my-changes/split-encoder
+#      import: app/west.yml
+#  self:
+#    path: config
+
 
 manifest:
   remotes:
-    - name: hadiwidjana
-      url-base: https://github.com/hadiwidjana
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: hadiwidjana
-      revision: my-changes/split-encoder
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
