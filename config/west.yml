@@ -13,12 +13,12 @@
 
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: hadiwidjana
+      url-base: https://github.com/hadiwidjana
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: hadiwidjana
+      revision: my-changes/split-encoder
       import: app/west.yml
   self:
     path: config
